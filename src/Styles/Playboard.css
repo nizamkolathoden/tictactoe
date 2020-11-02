@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.playboard-con {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.smcontainer {
+  background: #3ec1d3;
+  border-radius: 10px;
+  margin-top: 22px;
+}
+.colcontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+.col {
+  width: 80px;
+  height: 80px;
+  background-color: #2d4059;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.maincontainer {
+  width: 326px;
+  height: 335px;
+  background: #3ec1d3;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.pnames {
+  opacity: 1;
+}
+.playeronename {
+  color: #ff414d;
+  font-size: medium;
+}
+.playertwoname {
+  color: #f4f4f2;
+  font-size: medium;
+}
+.playershow {
+  color: #2d4059;
+  opacity: 1;
+}
+.restartButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 15px;
+}
+.reButton {
+  padding: 15px;
+  width: 200px;
+  margin: 20px;
+  font-family: "Trebuchet MS";
+  font-size: large;
+  border-radius: 10px;
+  font-weight: bold;
+  outline: none;
+  border: 4px solid #3ec1d3;
+  color: #2d4059;
+  background-color: #ff165d;
+}
+.HomeButtons {
+  padding: 15px;
+  width: 200px;
+  margin: 20px;
+  font-family: "Trebuchet MS";
+  font-size: large;
+  border-radius: 10px;
+  font-weight: bold;
+  outline: none;
+  border: 4px solid #ff165d;
+  color:  #2D4059;
+  background-color: #ff9a00;
+}
+.toasting{
+  position: absolute;
+  left: 50%;
+  top: 86%;
+  transform: translate(-50%,-50%);
+}
+.player1Headers{
+  color: #ff414d;
+}
+.player2Headers{
+  color: #f4f4f2;
+}
+@media(max-width: 450px){
+
+  .reButton{
+    padding: 8px;
+    margin-left: 8px;
+    width: 100px;
+    font-size: medium;
+  }
+  .HomeButtons{
+    padding: 8px;
+    margin-right: 8px;
+    width: 100px;
+    font-size: medium;
+  }
+  .col{
+    width: 50px;
+  height: 50px;
+  }
+  .maincontainer {
+    width: 232px;
+    height: 252px;
+  }
+  .playeronename {
+    
+    font-size: small;
+  }
+  .playertwoname {
+    font-size: small;
+  }
+}

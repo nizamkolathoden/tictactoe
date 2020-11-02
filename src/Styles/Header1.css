@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h3{
+    text-align: center;
+    font-size: xx-large;
+    font-family: "Trebuchet MS";
+}
+header{
+    margin-top: 50px;
+}
+.tic{
+    color: #3ec1d3;
+    animation: tic 1s infinite alternate;
+}
+.tac{
+    color: #ff165d;
+    animation: tac .5s infinite alternate;
+}
+.toe{
+    color: #ff9a00;
+    animation: toe .5s infinite alternate;
+}
+@keyframes tic{
+    50% { color: #ff165d; }
+}
+@keyframes tac{
+    50% { color: #ff9a00; }
+}
+@keyframes toe{
+    50% { color: #3ec1d3; }
+}
+@media(max-width: 450px){
+    h3{
+        text-align: center;
+        font-size: x-large;
+        font-family: "Trebuchet MS";
+    }
+}
+

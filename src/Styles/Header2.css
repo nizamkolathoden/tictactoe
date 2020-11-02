@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.h2{
+    text-align: center;
+    font-size: medium;
+    font-family: "Trebuchet MS";
+    margin-left: 50px;
+}
+.h2h{
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+}
+.Tic{
+    color: #3ec1d3;
+    animation: tic 1s infinite alternate;
+}
+.Tac{
+    color: #ff165d;
+    animation: tac .5s infinite alternate;
+}
+.Toe{
+    color: #ff9a00;
+    animation: toe .5s infinite alternate;
+}
+@keyframes Tic{
+    50% { color: #ff165d; }
+}
+@keyframes Tac{
+    50% { color: #ff9a00; }
+}
+@keyframes Toe{
+    50% { color: #3ec1d3; }
+}
+@media(max-width: 450px){
+    .h2{
+        margin-left: 25px;
+    }
+    .h2h{
+        margin-top: 18px;
+    }
+    
+}

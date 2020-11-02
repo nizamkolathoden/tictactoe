@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.play,.htp,.about{
+padding: 15px;
+width: 260px;
+margin: 20px;
+font-family: "Trebuchet MS";
+font-size: large;
+border-radius: 10px;
+font-weight: bold;
+outline: none;
+}
+.play{
+    border: 4px solid #ff9a00;
+    color:  #2D4059;
+    background-color: #3ec1d3;
+    animation: beat .50s infinite alternate;
+}
+.htp{
+    border: 4px solid #3ec1d3;
+    color:  #2D4059;
+    background-color: #ff165d;
+}
+.about{
+    border: 4px solid #ff165d;
+    color:  #2D4059;
+    background-color: #ff9a00;
+}
+@keyframes beat{
+	to { transform: scale(1.1); }
+}
+@media(max-width: 450px){
+    .play,.htp,.about{
+        padding: 15px;
+        width: 200px;
+        margin: 20px;
+        font-family: "Trebuchet MS";
+        font-size: medium;
+        border-radius: 10px;
+        font-weight: bold;
+        outline: none;
+        color:  #333333;
+        }
+}

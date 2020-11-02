@@ -1,0 +1,13 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #2D4059;
+}
+@media(max-width: 450px){
+  body{
+    background-color: #333333;
+  }
+}

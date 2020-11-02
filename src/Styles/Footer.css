@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p{
+    text-align: center;
+    opacity: 0.3;
+    color: gray;
+    font-family: "Trebuchet MS";
+    font-size: small;
+}
+@media(max-width: 450px){
+   p{
+    font-size: x-small;
+   } 
+}
+@media(max-width: 300px){
+    p{
+        display: none;
+    }
+}

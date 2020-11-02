@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.volumediv{
+   background: transparent;
+   border: none;
+   outline: none;
+}
+.volumeon{
+    color: #ff165d;
+    margin-left: 20px;
+}
+.volumeoff{
+    color: #ff9a00;
+    margin-left: 20px;
+    height: 25px;
+}
