@@ -11,7 +11,7 @@
     font-size: small;
 }
 @media(max-height: 550px){
-   p{
+   .FooterMessage{
     display: none;
    } 
 }
