@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div>
             <footer>
-            <p>
+            <p className="FooterMessage">
             Copyright 2020-2020 by India. All right reserved.<br/>
             Byte Hope innovations
             </p>
