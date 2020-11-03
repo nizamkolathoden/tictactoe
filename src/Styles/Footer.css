@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-p{
+.FooterMessage{
     text-align: center;
     opacity: 0.3;
     color: gray;
