@@ -10,13 +10,8 @@ p{
     font-family: "Trebuchet MS";
     font-size: small;
 }
-@media(max-width: 450px){
+@media(max-height: 550px){
    p{
-    font-size: x-small;
+    display: none;
    } 
-}
-@media(max-width: 300px){
-    p{
-        display: none;
-    }
 }

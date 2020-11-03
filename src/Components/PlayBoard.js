@@ -107,8 +107,8 @@ const isWinner = () => {
             </div>
             {winner ? (
                 <div className="restartButton">
-                <Link to="/"><button className='HomeButtons'>HOME</button></Link>
-                <button className='reButton' onClick={Restart}>RESTART</button>
+                <Link to="/"><button onClick={Restart} className='HomeButtons'>HOME</button></Link>
+                <button className='reButton' onClick={Restart}>RESTART</button>	                
                 </div>
         ):""}
             </div>

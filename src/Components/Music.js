@@ -17,6 +17,7 @@ const useAudio = url => {
 
   useEffect(() => {
     audio.addEventListener('ended', () => audio.play());
+    
     return () => {
       audio.removeEventListener('ended', () => setPlaying(false));
     };
@@ -27,10 +28,15 @@ const useAudio = url => {
 
 const Player = ({ url }) => {
   const [playing, toggle] = useAudio(soundfile);
-
+  
   return (
+    <>
+    
       <button className="volumediv" onClick={toggle}>{playing ? <FiVolume2 className="volumeon"/>: <FiVolumeX className="volumeoff"/>}</button>
-  );
+      
+      </>
+      );
+      
 };
 
 export default Player;
