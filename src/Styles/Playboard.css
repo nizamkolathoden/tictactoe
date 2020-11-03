@@ -100,6 +100,11 @@
 .player2Headers{
   color: #f4f4f2;
 }
+.turnsMessage{
+  font-size: medium;
+  margin-bottom: 10px;
+  color: #3ec1d3;
+}
 @media(max-width: 450px){
 
   .reButton{
